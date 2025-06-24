@@ -10,7 +10,7 @@ df["EDAD"] = pd.to_numeric(df["EDAD"], errors='coerce')
 # -------------------------
 # 1. Rango y Promedio de Edad
 # -------------------------
-print("🔢RANGO DE EDAD")
+print("RANGO DE EDAD")
 print("Edad mínima:", df["EDAD"].min())
 print("Edad máxima:", df["EDAD"].max())
 print("Promedio de edad:", round(df["EDAD"].mean(), 2))
